@@ -43,7 +43,7 @@ body {
 }
 
 #app {
-  background-image: url("./assets/worldmap-mobile.jpg");
+  background-image: url("./assets/blue.jpg");
   background-size: cover;
   background-position: bottom;
   transition: 0.6s;
@@ -59,7 +59,7 @@ main {
 .search_box .search_bar {
   display: block;
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   margin-top: 30px;
 
   border-radius: 0px 20px 0px 20px;
