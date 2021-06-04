@@ -43,7 +43,7 @@ body {
 }
 
 #app {
-  background-image: url("./assets/blue.jpg");
+  background-image: url("./assets/hill.png");
   background-size: cover;
   background-position: bottom;
   transition: 0.6s;
@@ -64,7 +64,7 @@ main {
 
   border-radius: 0px 20px 0px 20px;
   border: none;
-  background: #353535;
+  background: #202020;
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
   outline: none;
 
@@ -88,12 +88,14 @@ main {
   font-size: 25px;
   font-weight: 800;
   text-align: center;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 .wraper_wrap .location_box .date {
-  color: rgba(255, 255, 255, 0.575);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 20px;
   font-weight: 800;
   text-align: center;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .weather_box .temp {
@@ -103,14 +105,15 @@ main {
   text-align: center;
 
   margin: 30px 80px;
-  background-color: rgba(255, 255, 255, 0.137);
-  border-radius: 20px;
+  background-color: #202020;
+  border-radius: 0px 20px 0px 20px;
   box-shadow: 3px 6px 20px rgba(0, 0, 0, 0.5);
 }
 .weather_box .weather {
-  color: rgba(255, 255, 255, 0.575);
-  font-size: 20px;
+  color: rgba(255, 255, 255, 0.875);
+  font-size: 40px;
   font-weight: 800;
   text-align: center;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 </style>
