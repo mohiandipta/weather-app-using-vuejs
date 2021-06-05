@@ -25,6 +25,7 @@ export default {
   name: "App",
   data() {
     return {
+      //API KEY
       API_KEY: "fabaabc13a0dd5ad1732be3ad6125225",
     };
   },
